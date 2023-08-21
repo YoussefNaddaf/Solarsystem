@@ -1,0 +1,64 @@
+.Greenbutton{
+    color:black;
+    background-color: rgb(6, 221, 6);
+    padding:10px 10px;
+}
+.Redbutton{
+    color:black;
+    background-color: red;
+    Padding:10px 10px
+}
+.Bluebutton{
+    color:black ;
+    background-color: blue;
+    padding: 10px 10px;
+}
+.Pinkbutton{
+    color:black;
+    background-color: pink;
+    padding: 10px 10px;
+}
+.Cyanbutton{
+    color:black;
+    background-color: rgb(74, 255, 237);
+    padding: 10px 10px;
+}
+.Orangebutton{
+    color:rgb(0, 0, 0);
+    background-color: orange;
+    padding: 10px 10px;
+}
+.Purplebutton{
+    color:black;
+    background-color: rgb(163, 0, 163);
+    padding: 10px 10px;
+}
+.Yellowbutton{
+    color: black;
+    background-color: yellow;
+    padding: 10px 10px;
+}
+.Bluebutton:hover{
+    color:rgb(1, 1, 179)
+}
+.Greenbutton:hover{
+    color:green
+}
+.Redbutton:hover{
+    color:darkred
+}
+.Pinkbutton:hover{
+    color:rgb(169, 111, 121)
+}
+.Cyanbutton:hover{
+    color:rgb(31, 101, 94)
+}
+.Purplebutton:hover{
+    color:rgb(88, 5, 88)
+}
+.Orangebutton:hover{
+    color: rgb(195, 127, 2);
+}
+.Yellowbutton:hover{
+    color: rgb(210, 210, 0);
+}
