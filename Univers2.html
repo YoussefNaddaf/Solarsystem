@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .planet {
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+      }
+      .planet img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        animation: spin 100s linear infinite;
+      }
+      .planet:nth-child(even) img {
+        animation-direction: reverse;
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Space</h1>
+      <p>Space is the boundless three-dimensional extent in which objects and events have relative position and direction. It is one of the fundamental concepts in physics, and refers to the vast, seemingly empty expanse that makes up most of the universe.</p>
+      <h2>Our Solar System</h2>
+      <p>Our solar system consists of the Sun and all the objects that orbit around it, including the eight planets, dwarf planets, moons, asteroids, comets, and other celestial bodies. The eight planets in our solar system are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.</p>
+      <div class="planets">
+        <div class="planet">
+          <a href="mercury.html"><img src="mercury.jpeg" alt="Mercury"></a>
+          <p><a href="mercury.html">Mercury</a></p>
+        </div>
+        <div class="planet">
+          <a href="venus.html"><img src="venus.jpeg" alt="Venus"></a>
+          <p><a href="venus.html">Venus</a></p>
+        </div>
+        <div class="planet">
+          <a href="earth.html"><img src="earth.jpeg" alt="Earth"></a>
+          <p><a href="earth.html">Earth</a></p>
+        </div>
+        <div class="planet">
+          <a href="mars.html"><img src="mars.jpeg" alt="Mars"></a>
+          <p><a href="mars.html">Mars</a></p>
+        </div>
+        <div class="planet">
+          <a href="jupiter.html"><img src="jupiter.jpeg" alt="Jupiter"></a>
+          <p><a href="jupiter.html">Jupiter</a></p>
+        </div>
+        <div class="planet">
+          <a href="saturn.html"><img src="saturn.jpeg" alt="Saturn"></a>
+          <p><a href="saturn.html">Saturn</a></p>
+        </div>
+        <div class="planet">
+          <a href="uranus.html"><img src="Uranus.jpeg" alt="Uranus"><a> 
+            <p><a href="Uranus.html">Uranus</a></p>
+            <div class="planet">
+              <a href="Neptune.html"><img src="Neptune.jpeg" alt="Neptune"></a>
+              <p><a href="Neptune.html">Neptune</a></p>
+            </div>
+            <style>
+
+</style>    
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .cover-image {
+      position: relative;
+      background-image: url('solarsystem.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+    .cover-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(214, 8, 8);
+      font-size: 36px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="cover-image">
+    <div class="cover-text"></div>
+  </div>
+</body>
+</html>

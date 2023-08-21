@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .planet {
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+      }
+      .planet img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        animation: spin 100s linear infinite;
+      }
+      .planet:nth-child(even) img {
+        animation-direction: reverse;
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Space</h1>
+      <p>Space is the boundless three-dimensional extent in which objects and events have relative position and direction. It is one of the fundamental concepts in physics, and refers to the vast, seemingly empty expanse that makes up most of the universe.</p>
+      <h2>Our Solar System</h2>
+      <p>Our solar system consists of the Sun and all the objects that orbit around it, including the eight planets, dwarf planets, moons, asteroids, comets, and other celestial bodies. The eight planets in our solar system are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.</p>
+      <div class="planets">
+        <div class="planet">
+          <img src="mercury.jpg" alt="Mercury">
+          <p>Mercury</p>
+        </div>
+        <div class="planet">
+          <img src="venus.jpg" alt="Venus">
+          <p>Venus</p>
+        </div>
+        <div class="planet">
+          <img src="earth.jpg" alt="Earth">
+          <p>Earth</p>
+        </div>
+        <div class="planet">
+          <img src="mars.jpg" alt="Mars">
+          <p>Mars</p>
+        </div>
+        <div class="planet">
+          <img src="jupiter.jpg" alt="Jupiter">
+          <p>Jupiter</p>
+        </div>
+        <div class="planet">
+          <img src="saturn.jpg" alt="Saturn">
+          <p>Saturn</p>
+        </div>
+        <div class="planet">
+          <img src="uranus.jpg" alt="Uranus">
+          <p>Uranus</p>
+        </div class="Neptune.jpg" alt="Saturn">
+        <p>Neptune</p>
